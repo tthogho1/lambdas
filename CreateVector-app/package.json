@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.7.0",
+    "@types/aws-lambda": "^8.10.119",
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1399.0"
+  },
+  "scripts": {
+    "postinstall": "npx patch-package"
+  }
+}
